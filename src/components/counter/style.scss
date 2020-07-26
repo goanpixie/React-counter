@@ -1,0 +1,38 @@
+.counter{
+    width:100px;
+    height:auto;
+    background-color: #ffffff;
+    margin:100px auto;
+    box-shadow: darken($color: #000000, $amount: 0);
+
+
+    &-container{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        height:100%;
+        margin:5px;
+    }
+    
+    button{
+        background-color: green;
+        width:100px;
+    }
+
+    button:hover{
+        background-color: darkgreen;
+    }
+
+    button:focus{
+        outline:0;
+    }
+
+    .black{
+        color:black;
+    }
+
+    .grey{
+        color:gray
+    }
+}
